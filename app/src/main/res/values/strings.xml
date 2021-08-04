@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Halo Teyvat</string>
+    <string name="characters_name">Nama Karakter</string>
+    <string name="characters_detail">Detail Karakterssssssssssss sdf sdf sdf sd f sdf sd fsd f sdf sd ...</string>
+    <string name="about_me_name">Muhammad Rizky Agung Elfatih</string>
+    <string name="about_me_email">09021182025026@student.unsri.ac.id</string>
+    <string name="detail_name">Name</string>
+    <string name="detail_sex">Sex</string>
+    <string name="detail_nation">Nation</string>
+    <string name="detail_birthday">Birthday</string>
+    <string name="detail_share">Share</string>
+    <string name="detail_favorite">favorite</string>
+    <string name="leveling_material">Leveling Material</string>
+    <string name="detail">Detail</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg_item_list"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_character_photo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="4dp"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/img_character_rarity"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:src="@drawable/img_4_stars" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_character_name"
+            style="@style/TextContent.Name"
+            tools:text="@string/characters_name" />
+
+        <TextView
+            android:id="@+id/tv_character_detail"
+            style="@style/TextContent.Detail"
+            android:maxLines="2"
+            tools:text="@string/characters_detail" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_character_element"
+                style="@style/IconSmall"
+                android:src="@drawable/img_hydro" />
+
+            <TextView
+                android:id="@+id/tv_character_element"
+                style="@style/TextIconSmall"
+                tools:text="Hydro" />
+
+            <ImageView
+                android:id="@+id/img_character_weapon"
+                style="@style/IconSmall"
+                android:src="@drawable/img_catalyst" />
+
+            <TextView
+                android:id="@+id/tv_character_weapon"
+                style="@style/TextIconSmall"
+                tools:text="Catalyst" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
